@@ -21,5 +21,21 @@ header {
 }
 
 .logo{
-    width:
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    line-height: 100px ;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    letter-spacing: 5px;
 }
