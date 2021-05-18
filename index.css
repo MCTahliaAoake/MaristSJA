@@ -2,25 +2,30 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     text-align: center;
 }
+
 .wrapper{
     width: 1170px;
     margin: 0 auto;
 }
+
 header {
     height: 100px;
-    background: #262626;
+    background:black;
     width: 100%;
     z-index: 12;
     position: fixed;
 }
+
 .logo{
     width: 30%;
     float: left;
     line-height: 100px;
 }
+
 .logo a{
     text-decoration: none;
     font-size: 30px;
@@ -28,6 +33,7 @@ header {
     color: #fff;
     letter-spacing: 5px;
 }
+
 nav {
     float:right;
     line-height: 100px;
@@ -41,6 +47,46 @@ nav a{
     margin: 0 10px;
     color: #fff;
 }
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    letter-spacing: 4px;
+    padding: 16px ;
+    font-size: 20px;
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.dropdown {
+    position:relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width:100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {display:block}
+
+.dropdown:hover .dropbtn {background-color:#3e8e41}
+
 .banner-area{
     width: 100%;
     height: 500px;
@@ -51,6 +97,7 @@ nav a{
     background-size: cover;
     background-position: center center;
 }
+
 .banner-area h2{
     padding-top: 8%;
     font-size: 70px;
@@ -58,6 +105,7 @@ nav a{
     text-transform: uppercase;
     color:black;
 }
+
 .banner-area h3{
     padding-top: 2%;
     font-size: 50px;
