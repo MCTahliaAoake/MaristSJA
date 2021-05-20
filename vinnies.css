@@ -35,7 +35,7 @@ nav {
 nav a{ 
     text-decoration: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-size: 18px;
     margin: 0 10px;
     color: #fff;
@@ -43,9 +43,9 @@ nav a{
 .dropbtn {
     background-color: black;
     color: white;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     padding: 16px ;
-    font-size: 18px;
+    font-size: px;
     border: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
