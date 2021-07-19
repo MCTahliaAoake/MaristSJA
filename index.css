@@ -29,7 +29,7 @@ header {
 .logo a{
     text-decoration: none;
     font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #fff;
     letter-spacing: 5px;
 }
@@ -41,21 +41,21 @@ nav {
 
 nav a{ 
     text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 2px;
     font-size: 18px;
     margin: 0 10px;
-    color: #fff;
+    color:orange;
 }
 
 .dropbtn {
     background-color: black;
-    color: white;
+    color:orange;
     letter-spacing: 2px;
     padding: 16px ;
     font-size: 18px;
     border: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .dropdown {
@@ -66,14 +66,14 @@ nav a{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: black;
+    background-color:black;
     min-width:100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a{
-    color: white;
+    color:orange;
     padding: 5px;
     text-decoration: none;
     display: block;
@@ -85,7 +85,7 @@ nav a{
 
 .dropdown:hover .dropdown-content {display:block}
 
-.dropdown:hover .dropbtn {background-color:#3e8e41}
+.dropdown:hover .dropbtn {background-color:white}
 
 .banner-area{
     width: 100%;
@@ -98,20 +98,12 @@ nav a{
     background-position: center center;
 }
 
-.banner-area h2{
-    padding-top: 8%;
-    font-size: 70px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.banner-area h2{   
+    padding-top: 10%;
+    font-size: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
     color:black;
-}
-
-.banner-area h3{
-    padding-top: 2%;
-    font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-transform: uppercase;
-    color: black;
 }
 
 .content-area{
@@ -122,14 +114,17 @@ nav a{
     height: 1500px;
 }
 .content-area h2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 4px;
     padding-top: 30px;
-    font-size: 40px;
+    font-size: 48px;
     margin: 0;
+    color: orange;
+    text-transform:uppercase;
 }
 .content-area p{
-    padding: 2% 0;
-    font-family: monospace;
-    line-height: 30px;
+    padding: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 35px;
+    font-size: 35px;
 }
