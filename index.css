@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -114,7 +115,7 @@ nav a{
     height: 1500px;
 }
 .content-area h2{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: ;
     letter-spacing: 4px;
     padding-top: 30px;
     font-size: 48px;
@@ -128,3 +129,138 @@ nav a{
     line-height: 35px;
     font-size: 35px;
 }
+
+.row{
+    clear:both;
+    display: table;
+}
+
+.row p{
+    line-height: 1.8;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orange;
+}
+
+.row a{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orange;
+}
+
+.polaroid{
+    float: left;
+    width: 21%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    padding:5px;
+    margin-right: 20px;
+}
+
+.polaroid img{
+    width: 100%;
+    height:auto;
+}
+
+.container{
+    text-align: center;
+    padding: 10px ;
+    margin-bottom: 10px;
+}
+
+.container p{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.polaroid2{
+    float: left;
+    width: 17%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    padding:5px;
+    margin-right: 20px;
+}
+
+.polaroid2 img{
+    width: 100%;
+    height: auto;
+}
+
+.container2{
+    text-align: center;
+    padding: 10px ;
+    margin-bottom: 10px;
+}
+
+.container2 p{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.polaroid3{
+    float: left;
+    width: 23.5%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    padding:5px;
+    margin-right: 20px;
+}
+
+.polaroid3 img{
+    width: 100%;
+    height: auto;
+}
+
+.container3{
+    text-align: center;
+    padding: 10px ;
+    margin-bottom: 10px;
+}
+
+.container3 p{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.polaroid4{
+    float:left;
+    width: 30.5%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    padding:4px;
+    margin-right: 20px;
+}
+
+.polaroid4 img{
+    width: 100%;
+    height: auto;
+}
+
+.container4{
+    text-align: center;
+    padding: 8px ;
+    margin-bottom: 10px;
+}
+
+.container4 p{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
