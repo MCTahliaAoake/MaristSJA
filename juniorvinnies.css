@@ -29,7 +29,7 @@ header {
 .logo a{
     text-decoration: none;
     font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #fff;
     letter-spacing: 5px;
 }
@@ -41,21 +41,21 @@ nav {
 
 nav a{ 
     text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 2px;
     font-size: 18px;
     margin: 0 10px;
-    color: #fff;
+    color: orange;
 }
 
 .dropbtn {
     background-color: black;
-    color: white;
+    color: orange;
     letter-spacing: 2px;
     padding: 16px ;
     font-size: 18px;
     border: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .dropdown {
@@ -73,7 +73,7 @@ nav a{
 }
 
 .dropdown-content a{
-    color: white;
+    color: orange;
     padding: 5px;
     text-decoration: none;
     display: block;
@@ -85,7 +85,7 @@ nav a{
 
 .dropdown:hover .dropdown-content {display:block}
 
-.dropdown:hover .dropbtn {background-color:#3e8e41}
+.dropdown:hover .dropbtn {background-color: white;}
 
 .banner-area{
     width: 100%;
