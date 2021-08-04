@@ -105,6 +105,7 @@ nav a{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
     color:black;
+    text-shadow: -1px -1px 0 orange, 1px -1px 0 orange, -1px 1px 0 orange, 1px 1px 0 orange;
 }
 
 .content-area{
@@ -252,9 +253,44 @@ nav a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.mytimetable {
+    width:100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
 
+.mytimetable THEAD{
+    color: orange;
+    background-color: black;
+}
 
+.mytimetable TBODY{
+    background-color: white;
+    color: white;
+}
 
+.mytimetable TD{
+    border: 1px solid white;
+    padding: 6px;
+    text-align: center;
+}
+
+.mytimetable TBODY TR TD{
+    background-color: black;
+    font-weight: bold;
+}
+
+.subject {
+    font-size: 12pt;
+    margin-bottom: 4px;
+    color: white;
+}
+
+.room {
+    font-size:10pt;
+    font-style: italic;
+    color: white;
+}
 
 
 

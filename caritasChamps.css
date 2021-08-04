@@ -100,12 +100,11 @@ nav a{
 
 .banner-area h2{
     padding-top: 8%;
-    font-size: 70px;
+    font-size: 100px;
     font-family: 'Archivo Black',sans-serif;
     text-transform: uppercase;
-    color:gainsboro;
-    text-shadow: black;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color:orange;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
 .content-area{
